@@ -1,0 +1,35 @@
+# =========================
+# Asterisk - Áudios
+# =========================
+*.wav
+*.WAV
+*.mp3
+*.gsm
+
+# Diretórios comuns de gravação
+/var/spool/asterisk/monitor/
+/var/spool/asterisk/recordings/
+
+# =========================
+# Logs
+# =========================
+*.log
+*.out
+
+# =========================
+# Cache / temporários
+# =========================
+tmp/
+cache/
+
+# =========================
+# PHP
+# =========================
+vendor/
+.env
+
+# =========================
+# Sistema
+# =========================
+.DS_Store
+Thumbs.db
